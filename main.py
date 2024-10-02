@@ -23,7 +23,7 @@ async def on_ready():
     print(f'{bot.user} has connected to Discord!')
     channel = bot.get_channel(CHANNEL_ID)
 
-ROSS_USER_ID = 265197452842369025
+ROSS_USER_ID = 759230641324818442
 
 @bot.command(pass_context = True, brief='Mute Sarah Ross constantly so you cannot hear her YAP')
 async def muteRoss(ctx):
